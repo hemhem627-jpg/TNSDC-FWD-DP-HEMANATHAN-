@@ -1,0 +1,173 @@
+/* General Styling */
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  padding: 0;
+
+  line-height: 1.6;
+
+  background: #111;
+
+  color: #f4f4f4;
+
+}
+
+header {
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+  background: #00cc44; /* green header */
+
+  color: #fff;
+
+}
+
+header h1 {
+
+  margin: 0;
+
+  font-size: 2.5em;
+
+}
+
+section {
+
+  padding: 40px 20px;
+
+  max-width: 900px;
+
+  margin: auto;
+
+}
+
+h2 {
+
+  color: #00ff88;
+
+  margin-bottom: 20px;
+
+  border-bottom: 2px solid #00ff88;
+
+  display: inline-block;
+
+  padding-bottom: 5px;
+
+}
+
+/* Skills Section */
+
+.skill {
+
+  margin-bottom: 20px;
+
+}
+
+.progress {
+
+  background: #333;
+
+  border-radius: 8px;
+
+  overflow: hidden;
+
+  height: 20px;
+
+  margin-top: 5px;
+
+}
+
+.progress-bar {
+
+  background: linear-gradient(90deg, #00ff88, #00cc44);
+
+  height: 100%;
+
+  width: 0;
+
+  transition: width 1s ease-in-out;
+
+}
+
+/* Projects */
+
+.project-card {
+
+  background: #222;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  margin-bottom: 20px;
+
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
+
+}
+
+/* Contact Form */
+
+form {
+
+  margin-top: 20px;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+form input, form textarea {
+
+  margin-bottom: 15px;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+}
+
+form button {
+
+  background: linear-gradient(90deg, #00ff88, #00cc44);
+
+  color: white;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+form button:hover {
+
+  background: linear-gradient(90deg, #00cc44, #00ff88);
+
+}
+
+footer {
+
+  text-align: center;
+
+  padding: 20px;
+
+  background: #000;
+
+  margin-top: 40px;
+
+}
